@@ -8,7 +8,7 @@ namespace AppRemind.Controllers
 {
     public class MyCalendarController : Controller
     {
-        public IActionResult MyCalendar()
+        public IActionResult Index()
         {
             return View();
         }
